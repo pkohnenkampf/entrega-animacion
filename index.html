@@ -5,28 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>entrega-animacion</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" />
+    <script src="https://kit.fontawesome.com/89c6e6131b.js" crossorigin="anonymous"></script> 
 </head>
 <body>
     <div class="grid-container">
-        <header class="header-desktop">
+        <header class="header-desktop" id="anclaje-personal">
             <h1>Paz Kohnenkampf</h1>
             <p>Ingeniera civil industrial</p>
+            <P>Soy ingeniera civil industrial de la Universidad de Santiago de Chile, especializada en la extracción y análisis de datos e información, promoviendo mejoras en la gestión y optimización de procesos, poseo experiencia en el diseño de sistemas de trabajo, Control de Gestión Comercial, Experiencia de clientes e inteligencia de clientes.
+
+                Soy una persona empática y cordial, de actitud franca, respetuosa y siempre con la   idea de formar un equipo de trabajo sólido y colaborativo, en donde se mantenga un grato ambiente laboral</P>
         </header>
 
         <aside class="aside-desktop">
-                <h2>Conoce mas sobre mí</h2>
                 <ul>
-                    <a href="#anclaje-personal"  class="format-list"><li>Información personal</li></a>
-                    <a href="#anclaje-experiencia"  class="format-list"><li>Experiencia laboral</li></a>
-                    <a href="#anclaje-interes"  class="format-list"><li>cosas de mi interes</li></a>
-                    <a href="#anclaje-footer"  class="format-list"><li>Contacto</li></a>
+                    <div class="order-list">
+                        <i class="fa-regular fa-hand-peace"></i>
+                        <a href="#anclaje-personal"  class="format-list"><li>Sobre mí</li></a>
+                    </div>
+                    <div class="order-list">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <a href="#anclaje-estudios"  class="format-list"><li>Estudios</li></a>
+                    </div>
+                    <div class="order-list">
+                        <i class="fa-solid fa-suitcase"></i>
+                        <a href="#anclaje-experiencia"  class="format-list"><li>Experiencia laboral</li></a>
+                    </div>
+                    <div class="order-list">
+                        <i class="fa-solid fa-cat"></i>
+                        <a href="#anclaje-gato"  class="format-list"><li>Mis gatos</li></a>
+                    </div>
+                    <div class="order-list">
+                        <i class="fa-regular fa-address-book"></i>
+                        <a href="#anclaje-footer"  class="format-list"><li>contacto</li></a>
+                    </div>
                 </ul>
         </aside>
 
         <main class="main-desktop">
-            <section class="interes" id="#anclaje-interes"></section>
-               <div class="card">
+
+            <section id="#anclaje-estudios" class="experiencia">
+                <h3>Mis conocimientos</h3>
+                <div class="caja-estudios">
+                    <div>
+                        <h5>Estudios formales</h5>
+                        <p>Ingenieria civil industrial [usach]</p>
+                        <p>Ingenieria Ejecución industrial [usach]</p>
+                        <p>Diplomado en dirección de proyectos [Uandes]</p>
+                    </div>
+                    <div>
+                        <h5>Cursos</h5>
+                        <p>Excel avanzado [Camara de comercio]</p>
+                        <p>SQL Consultas [Coderhouse]</p>
+                        <p>Power BI [Coderhouse]</p>
+                        <p>Curso full-stack [Desafio latama]</p>
+
+                    </div>
+                </div>
+            </section>
+        
+            <section id="#anclaje-experiencia" class="experiencia">
+                <h3>Mi experiencia laboral</h3>
+                <div class="caja-experiencia">
+                    <div class="formato-caja">
+                        <p>Ingeniera de proyectos</p>
+                    </div>
+                    <div class="formato-caja">
+                        <p>Analista de gestión y datos</p>
+                    </div>
+                    <div class="formato-caja">
+                        <p>Analista de seguros masivos</p>
+                    </div>
+                </div>
+            </section>
+            <section class="gatos" id="anclaje-gato">
+                <h3>Mis gatos</h3>
+                <div class="card">
                     <figure>
                         <img src="./assets/images/IMG_20200513_171911.jpg" alt="Juan y luis de cachorros" class="format-images">
                     </figure>
@@ -36,11 +91,27 @@
                     <figure>
                         <img src="./assets/images/IMG_20200326_123333.jpg" alt=" juan y luis recien llegados" class="format-images">
                     </figure>
+                    <figure>
+                        <img src="./assets/images/IMG_20200420_200137.jpg" alt="luis recien llegado" class="format-images">
+                    </figure>
                 </div>
-           <section class="interes">
+            </section>
 
-           </section>
+            <div class="nuestrocontenedor">
+                <img src="./assets/images/IMG_20200420_200137.jpg" alt="Avatar" class="nuestraimagen">
+                <div class="nuestrobloque">
+                  <div class="nuestrotexto">Hello World</div>
+                </div>
+              </div>
         </main>
+
+
+        <div class="nuestrocontenedor">
+            <img src="nuestraimagen.png" alt="Avatar" class="nuestraimagen">
+            <div class="nuestrobloque">
+              <div class="nuestrotexto">Hello World</div>
+            </div>
+          </div>
 
         <footer class="footer-desktop" id="anclaje-footer">
             <h3>footer</h3>
