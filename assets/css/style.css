@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header-desktop {
+    grid-area: header-desktop;
+    background-color: blue;
+}
+
+.main-desktop {
+    grid-area: main-desktop;
+    background-color: brown;
+    height: 1000px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px;
+    gap:16px;
+    
+}
+
+.format-images {
+    height: covert-fit;
+    max-width: 100%;
+}
+
+.aside-desktop {
+    grid-area: aside-desktop;
+    background-color: cadetblue;
+}
+
+.format-list {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-desktop {
+    grid-area: footer-desktop;
+    background-color: chocolate;
+}
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 140px auto 100px;
+    grid-template-areas: 
+    "aside-desktop header-desktop"
+    "aside-desktop main-desktop"
+    "footer-desktop footer-desktop";
+}
